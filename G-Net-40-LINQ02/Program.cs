@@ -97,3 +97,23 @@ using static LINQ.DataSources.Source;
 
 #endregion
 
+#region Question 08
+
+//// 8. Find all categories that have MORE THAN 3 products
+
+//var Result = ProductList.GroupBy(p => p.Category).Select(x => new
+//    {
+//        Category = x.Key,
+//        ProductCount = x.Count()
+
+//    }).Where(x => x.ProductCount > 3);
+
+//foreach (var group in Result)
+//{
+//    Console.WriteLine($"Category: {group.Category} - Product Count = {group.ProductCount}");
+   
+//}
+
+#endregion
+
+
