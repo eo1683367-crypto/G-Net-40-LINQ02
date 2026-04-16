@@ -221,3 +221,15 @@ using static LINQ.DataSources.Source;
 
 //Console.WriteLine(Result);
 #endregion
+
+#region Question 18
+
+//// 18. Generate a multiplication table row for 7
+
+//var multiplication = Enumerable.Range(1,12);
+
+//foreach (var item in multiplication)
+//{
+//    Console.WriteLine($"7 * {item} = {7 * item}");
+//}
+#endregion
