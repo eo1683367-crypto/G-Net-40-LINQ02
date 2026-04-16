@@ -258,3 +258,16 @@ using static LINQ.DataSources.Source;
 //    Console.WriteLine(item);
 #endregion
 
+#region Question 21
+
+//// 21. Pair each product with a customer (by position)  and produce a string "ProductName sold to CompanyName".
+
+//  var ProductNames = ProductList.Select(p => p.ProductName);
+
+//    var CustomerNames = CustomerList.Select(c => c.CompanyName);
+
+//var Result = ProductNames.Zip(CustomerNames, (product,customer) => $"{product} sold to {customer}");
+
+//foreach (var item in Result)
+//    Console.WriteLine(item);
+#endregion
