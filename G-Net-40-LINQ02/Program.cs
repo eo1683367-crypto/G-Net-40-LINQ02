@@ -1,4 +1,5 @@
-﻿using static LINQ.DataSources.Source;
+﻿using LINQ.Models;
+using static LINQ.DataSources.Source;
 
 #region Question 01
 
@@ -61,5 +62,17 @@
 
 //Console.WriteLine(Checked);
 
+#endregion
+
+#region Question 06
+
+// 6. Group all products by Category and print each group  with its product count.
+
+//var Result = ProductList.GroupBy(p => p.Category).Select(p => new { Category = p.Key, ProductCount = p.Count() });
+
+//foreach (var group in Result)
+//{
+//    Console.WriteLine($"Category: {group.Category}, Product Count: {group.ProductCount}");
+//}
 #endregion
 
