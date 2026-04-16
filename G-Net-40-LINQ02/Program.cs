@@ -203,3 +203,13 @@ using static LINQ.DataSources.Source;
 
 //Console.WriteLine(pruductWithID18);
 #endregion
+
+#region Question 16
+
+//// 16. Get the first product whose price is greater than $50.
+
+//var Result = ProductList.FirstOrDefault(p => p.UnitPrice > 50);
+
+//Console.WriteLine(Result);
+#endregion
+
