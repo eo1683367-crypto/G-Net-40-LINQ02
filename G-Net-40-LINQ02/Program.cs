@@ -156,3 +156,14 @@ using static LINQ.DataSources.Source;
 //Console.WriteLine($"Cheapest: {Cheapest}, Most Expensive: {MostExpensive}");
 #endregion
 
+#region Question 12
+
+// 12. Get a distinct list of all product categories
+
+//var Result = ProductList.Select(p => p.Category).Distinct();
+
+//foreach (var group in Result)
+//{
+//    Console.WriteLine($"Category: {group}");
+//}
+#endregion
