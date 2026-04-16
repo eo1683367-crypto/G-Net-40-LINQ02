@@ -193,3 +193,13 @@ using static LINQ.DataSources.Source;
 
 #endregion
 
+#region Question 15
+
+//// 15. Build a Dictionary<int, Product> keyed by ProductID. Then retrieve and print the product with ID = 18. 
+
+//var ProductDictionary = ProductList.ToDictionary(p => p.ProductID);
+
+//var pruductWithID18 = ProductDictionary[18];
+
+//Console.WriteLine(pruductWithID18);
+#endregion
