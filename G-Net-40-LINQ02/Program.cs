@@ -146,3 +146,13 @@ using static LINQ.DataSources.Source;
 //Console.WriteLine(Result);
 #endregion
 
+#region Question 11
+
+//// 11. Find the CHEAPEST and MOST EXPENSIVE product prices
+
+//var Cheapest = ProductList.Min(p => p.UnitPrice);
+//var MostExpensive = ProductList.Max(p => p.UnitPrice);
+
+//Console.WriteLine($"Cheapest: {Cheapest}, Most Expensive: {MostExpensive}");
+#endregion
+
