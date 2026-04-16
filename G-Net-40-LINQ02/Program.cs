@@ -76,3 +76,24 @@ using static LINQ.DataSources.Source;
 //}
 #endregion
 
+#region Question 07
+
+//// 7. Group products by Category and project only product names per group
+
+//var Result = ProductList.GroupBy(p => p.Category).Select(p => new 
+//{ 
+//    Category = p.Key, 
+//    ProductName = p.Select(x => x.ProductName) 
+//});
+
+//foreach (var group in Result)
+//{
+//    Console.WriteLine($"Category: {group.Category}");
+//    foreach (var name in group.ProductName)
+//    {
+//        Console.WriteLine($" - {name}");
+//    }
+//}
+
+#endregion
+
