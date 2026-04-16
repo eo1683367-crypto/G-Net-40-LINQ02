@@ -137,3 +137,12 @@ using static LINQ.DataSources.Source;
 //}
 #endregion
 
+#region Question 10
+
+//// 10. Calculate the total number of units in stock across all products
+
+//var Result = ProductList.Sum(p => p.UnitsInStock);
+
+//Console.WriteLine(Result);
+#endregion
+
