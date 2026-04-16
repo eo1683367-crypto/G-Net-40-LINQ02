@@ -111,9 +111,29 @@ using static LINQ.DataSources.Source;
 //foreach (var group in Result)
 //{
 //    Console.WriteLine($"Category: {group.Category} - Product Count = {group.ProductCount}");
-   
+
 //}
 
 #endregion
 
+
+#region Question 09
+
+//// 9. Using QUERY SYNTAX, group customers by Country, and for each group select { Country, Count, TotalOrderValue }.
+
+//var Result = from c in CustomerList
+//             group c by c.Country
+//             into grouped
+//             select new
+//                    {
+//                      Country = grouped.Key,
+//                        Count = grouped.Count(),
+//                        TotalOrderValue = grouped.Sum(x => x.Orders.Sum(o => o.Total))
+//                    };
+
+//foreach (var group in Result)
+//    {
+//    Console.WriteLine($"Country: {group.Country} - Count = {group.Count} - Total Order Value = {group.TotalOrderValue}");
+//}
+#endregion
 
