@@ -167,3 +167,16 @@ using static LINQ.DataSources.Source;
 //    Console.WriteLine($"Category: {group}");
 //}
 #endregion
+
+#region Question 13
+
+//   // 13. find product IDs that are in setA but NOT in setB 
+//   int[] setA = { 1, 3, 5, 7, 9, 11, 13 };
+//   int[] setB = { 3, 6, 9, 12, 15, 13 };
+
+//var Result = setA.Except(setB);
+
+//foreach (var item in Result)
+//    Console.WriteLine(item);
+#endregion
+
