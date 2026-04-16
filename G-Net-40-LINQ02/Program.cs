@@ -233,3 +233,14 @@ using static LINQ.DataSources.Source;
 //    Console.WriteLine($"7 * {item} = {7 * item}");
 //}
 #endregion
+
+#region Question 19
+
+//// 19. Generate even numbers between 1 and 30.
+
+//var Result = Enumerable.Range(1, 30).Where(n => n % 2 == 0);
+
+//foreach (var item in Result)
+//    Console.WriteLine(item);
+#endregion
+
