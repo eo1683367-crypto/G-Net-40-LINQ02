@@ -244,3 +244,17 @@ using static LINQ.DataSources.Source;
 //    Console.WriteLine(item);
 #endregion
 
+#region Question 20
+
+//// 20. Concatenate the first 3 product names with the first  3 customer company names into a single sequence. 
+
+//var ProductsNames = ProductList.Take(3).Select(p => p.ProductName);
+
+//var CustomerNames = CustomerList.Take(3).Select(c => c.CompanyName);
+
+//var Result = ProductsNames.Concat(CustomerNames);
+
+//foreach (var item in Result)
+//    Console.WriteLine(item);
+#endregion
+
